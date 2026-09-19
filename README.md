@@ -1,6 +1,6 @@
 <div align="center">
   <br>
-  <h1>Hi, I'm Bhuvan 👋</h1>
+  <img src="assets/bhuvan-header.svg" alt="BHUVAN" width="600" />
   <p><b>Computer Science & Engineering Undergraduate</b></p>
   <p><code>Cybersecurity</code>  •  <code>AI / ML</code>  •  <code>Full-Stack Systems</code>  •  <code>IoT</code></p>
   <br>
