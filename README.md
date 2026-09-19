@@ -5,9 +5,9 @@
   <p><code>Cybersecurity</code>  •  <code>AI / ML</code>  •  <code>Full-Stack Systems</code>  •  <code>IoT</code></p>
   <br>
 
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/bhuvan-sk)
-  [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=flat-square&logo=github)](https://github.com/bhuvan-sk)
-  [![Email](https://img.shields.io/badge/Email-Contact-red?style=flat-square&logo=mail.ru)](mailto:bhuvi.perfect@gmail.com)
+  <a href="https://linkedin.com/in/bhuvan-sk"><img src="assets/icons/linkedin.svg" alt="LinkedIn" width="24"/></a> &nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/bhuvan-sk"><img src="assets/icons/github.svg" alt="GitHub" width="24"/></a> &nbsp;&nbsp;&nbsp;
+  <a href="mailto:bhuvi.perfect@gmail.com"><img src="assets/icons/email.svg" alt="Email" width="24"/></a>
 
   <br><br>
 
@@ -19,7 +19,7 @@
 
 <h2 id="about-me">👤 About Me</h2>
 
-I am a CSE undergraduate (2024–2028) at RNSIT, Bengaluru, focused on bridging the gap between software and hardware. I specialize in building **intelligent, secure, and practical systems**—ranging from USB attack detection algorithms and agentless IoT telemetry pipelines to sovereign AI agent workflows. My engineering philosophy revolves around creating resilient, full-stack architectures that solve real-world problems.
+CSE undergraduate at RNSIT, Bengaluru, working across Cybersecurity, AI/ML, and Full-Stack Engineering. I build practical systems spanning intelligent agents, security tooling, and software–hardware integration.
 
 ---
 
@@ -27,9 +27,9 @@ I am a CSE undergraduate (2024–2028) at RNSIT, Bengaluru, focused on bridging 
 
 > **Secure and intelligent systems across Cybersecurity, AI/ML, Agentic AI, and IoT.**
 
-- 🤖 **Agentic AI**: Developing *PRAVAH (SIH26117)*, a sovereign on-premise AI workbench for confidential industrial workloads using open-weight multimodal models.
-- 🎙️ **AI-Powered Workflows**: Integrating Gemini Live bidirectional audio streaming into clinical management systems (*ClinicDesk*).
-- 🔌 **IoT Architectures**: Writing robust ESP32 firmware for multi-sensor environmental telemetry (*AegisFlow* & *IoT Smart Dashboard*).
+- 🤖 **Agentic AI**: Developing *PRAVAH (SIH26117)*, a sovereign on-premise AI workbench for confidential industrial workloads.
+- 🎙️ **Intelligent Workflows**: Exploring LLM-powered workflows and real-time AI interaction through *ClinicDesk*.
+- 🛡️ **Cybersecurity Engineering**: Building practical security systems spanning USB attack detection, IoT security, network telemetry, and anomaly detection.
 
 ---
 
@@ -103,12 +103,22 @@ I am a CSE undergraduate (2024–2028) at RNSIT, Bengaluru, focused on bridging 
 
 ---
 
-<h2 id="experience">🏆 Experience & Achievements</h2>
+<h2 id="experience">🏆 Experience & Project Highlights</h2>
 
-*   **IIT Guwahati Hackathon**: Advanced through multiple selection rounds among hundreds of teams with the *CHRONOS* IoT Security project.
-*   **Smart India Hackathon (SIH 2024)**: Developed *PRAVAH* (SIH26117), a robust industrial agentic architecture.
-*   **Social Media Intern (Alumni Initiative)**: Managing digital communications and driving engagement for the RNSIT alumni network (2026–Present).
-*   **NPTEL Certification**: Design & Analysis of Algorithms (DAA).
+### PRAVAH — Sovereign AI Workbench
+Working on an on-premise agentic AI architecture designed for confidential industrial environments, with emphasis on open-weight multimodal models, secure execution, and controlled AI workflows.
+
+### Chronos — IoT Security
+Developed an agentless IoT security approach using network timing telemetry and anomaly detection to identify suspicious behavior without requiring changes to monitored devices.
+
+### SHIELD.USB — USB Security
+Built a USB attack detection and monitoring system combining microcontroller-based attack simulation, device tracking, backend APIs, telemetry, and dashboard visualization.
+
+### ClinicDesk — AI-Powered Full-Stack System
+Built a full-stack clinical management application integrating real-time task management, synchronization, and AI-powered voice interaction.
+
+### RNSIT Alumni Initiative — Social Media Intern
+Working on digital communication and social media initiatives for the RNSIT alumni network.
 
 ---
 
