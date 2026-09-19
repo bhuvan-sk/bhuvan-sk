@@ -1,6 +1,7 @@
 <div align="center">
   <br>
-  <img src="assets/bhuvan-sk-gothic-final.svg" alt="BHUVAN SK" width="600" />
+  <img src="assets/bhuvan-sk-gothic-final.svg" alt="BHUVAN SK" width="680" />
+  <br>
   <p><b>Computer Science & Engineering Undergraduate</b></p>
   <p><code>Cybersecurity</code>  •  <code>AI / ML</code>  •  <code>Full-Stack Systems</code>  •  <code>IoT</code></p>
   <br>
