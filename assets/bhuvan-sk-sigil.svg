@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 180" width="100%" height="180">
+  <defs>
+    <!-- Subtle technical grid -->
+    <pattern id="fineGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1f242c" stroke-width="0.5"/>
+    </pattern>
+
+    <!-- Chrome / Titanium metallic gradient with sharp horizon reflection -->
+    <linearGradient id="chrome" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="35%" stop-color="#e2e8f0"/>
+      <stop offset="48%" stop-color="#64748b"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="52%" stop-color="#94a3b8"/>
+      <stop offset="85%" stop-color="#cbd5e1"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+
+    <!-- Highlight Sweep Gradient -->
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0.0"/>
+    </linearGradient>
+    
+    <!-- Subtle digital glow for accents -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="100%" height="100%" fill="url(#fineGrid)" />
+
+  <style>
+    .chrome-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      font-size: 46px;
+      font-weight: 900;
+      letter-spacing: 24px;
+      text-anchor: middle;
+      fill: url(#chrome);
+    }
+    .text-shadow {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      font-size: 46px;
+      font-weight: 900;
+      letter-spacing: 24px;
+      text-anchor: middle;
+      fill: none;
+      stroke: #0d1117;
+      stroke-width: 6px;
+    }
+    .tiny-text {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 8px;
+      fill: #8b949e;
+      letter-spacing: 2px;
+    }
+  </style>
+
+  <!-- Abstract Cyber-Sigil Centered -->
+  <g transform="translate(300, 75)">
+    <!-- Inner starburst geometric core -->
+    <path d="M 0,-45 L 5,-12 L 40,0 L 5,12 L 0,45 L -5,12 L -40,0 L -5,-12 Z" stroke-width="0.75" stroke="#4b5563" fill="none" opacity="0.6"/>
+    
+    <!-- Outer sharp interlocking cyber-thorns (Y2K sigil motif) -->
+    <path d="M -15,-25 Q -5,-50 0,-60 Q 5,-50 15,-25 Q 40,-35 50,-15 Q 25,-10 30,15 Q 45,30 20,40 Q 10,15 0,45 Q -10,15 -20,40 Q -45,30 -30,15 Q -25,-10 -50,-15 Q -40,-35 -15,-25 Z" stroke-width="1.2" stroke="url(#chrome)" fill="none"/>
+    
+    <!-- Central power node -->
+    <circle cx="0" cy="0" r="1.5" fill="#58a6ff" stroke="none" filter="url(#glow)"/>
+    
+    <!-- Floating orbital fragments with slow fade animation -->
+    <circle cx="-35" cy="-35" r="1" fill="#c9d1d9" stroke="none">
+      <animate attributeName="opacity" values="0.1;1;0.1" dur="4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="35" cy="35" r="1" fill="#c9d1d9" stroke="none">
+      <animate attributeName="opacity" values="0.1;1;0.1" dur="4s" begin="2s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Typography Layer -->
+  <!-- Shifted text to the right by 12px (half of 24px letter-spacing) for optical centering -->
+  <g transform="translate(300, 120) scale(1.15, 1)">
+    <!-- Heavy stroke acts as a matte to cut out the sigil lines behind the text for perfect readability -->
+    <text x="12" y="0" class="text-shadow">BHUVAN SK</text>
+    <!-- Main chrome lettering -->
+    <text x="12" y="0" class="chrome-text">BHUVAN SK</text>
+  </g>
+  
+  <!-- Outer Technical Framing and Crosshairs -->
+  <path d="M 20 20 L 30 20 M 20 20 L 20 30" fill="none" stroke="#58a6ff" stroke-width="1" opacity="0.5"/>
+  <path d="M 580 20 L 570 20 M 580 20 L 580 30" fill="none" stroke="#58a6ff" stroke-width="1" opacity="0.5"/>
+  <path d="M 20 160 L 30 160 M 20 160 L 20 150" fill="none" stroke="#58a6ff" stroke-width="1" opacity="0.5"/>
+  <path d="M 580 160 L 570 160 M 580 160 L 580 150" fill="none" stroke="#58a6ff" stroke-width="1" opacity="0.5"/>
+
+  <!-- Small Asymmetric Data Details -->
+  <text x="40" y="165" class="tiny-text">SYS.ID // 0x8A9</text>
+  <text x="475" y="165" class="tiny-text">AESTHETIC: CYBER</text>
+  <path d="M 120 162 L 150 162" stroke="#4b5563" stroke-width="0.5" fill="none"/>
+  
+  <!-- Subtle Highlight Sweep Animation -->
+  <g transform="translate(300, 120) scale(1.15, 1)">
+    <mask id="textMask">
+      <text x="12" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="46" font-weight="900" letter-spacing="24" text-anchor="middle" fill="white">BHUVAN SK</text>
+    </mask>
+    <!-- A skewed box containing the highlight gradient sweeps across the masked text -->
+    <rect x="-350" y="-40" width="80" height="80" fill="url(#accent)" mask="url(#textMask)" opacity="0.75" transform="skewX(-25)">
+      <animate attributeName="x" from="-350" to="400" dur="5s" repeatCount="indefinite" />
+    </rect>
+  </g>
+</svg>
