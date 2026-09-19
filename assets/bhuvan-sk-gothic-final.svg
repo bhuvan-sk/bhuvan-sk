@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120" width="100%" height="120">
+  <!-- Reverting exactly to the approved original typography -->
+  <style>
+    .wordmark {
+      font-family: 'Times New Roman', Times, Georgia, serif;
+      font-size: 44px;
+      font-weight: 700;
+      letter-spacing: 14px;
+      text-anchor: middle;
+      dominant-baseline: middle;
+      fill: #e2e8f0; /* Soft off-white / silver */
+    }
+  </style>
+
+  <g transform="translate(300, 65) scale(0.85, 1.4)">
+    <text x="7" y="0" class="wordmark">BHUVAN SK</text>
+  </g>
+  
+  <!-- ONE small gothic visual detail attached near the final letter -->
+  <!-- A tiny gothic cross-like ornament acting as a typographic signature -->
+  <g transform="translate(458, 63)">
+    <!-- Outer sharp silver cross -->
+    <path d="M 0,-8 C 0.5,-1.5 1,-0.5 4,0 C 1,0.5 0.5,1.5 0,10 C -0.5,1.5 -1,0.5 -4,0 C -1,-0.5 -0.5,-1.5 0,-8 Z" fill="#94a3b8" />
+    
+    <!-- Inner subtle muted violet core -->
+    <path d="M 0,-3 C 0.2,-0.5 0.5,-0.2 2,0 C 0.5,0.2 0.2,0.5 0,4 C -0.2,0.5 -0.5,0.2 -2,0 C -0.5,-0.2 -0.2,-0.5 0,-3 Z" fill="#7c3aed" opacity="0.8"/>
+  </g>
+</svg>
