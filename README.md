@@ -19,7 +19,7 @@
 
 <h2 id="about-me">👤 About Me</h2>
 
-CSE undergraduate at RNSIT, Bengaluru, working across Cybersecurity, AI/ML, and Full-Stack Engineering. I build practical systems spanning intelligent agents, security tooling, and software–hardware integration.
+I'm a Computer Science & Engineering undergraduate at RNSIT, Bengaluru, with a strong interest in building and understanding software systems. My primary interests lie in **Cybersecurity**, **AI/ML**, and **Full-Stack Engineering**, with growing interests in **Agentic AI**, **Systems**, **Networking**, and **IoT**. I enjoy exploring how these areas come together to create reliable and practical technology.
 
 ---
 
@@ -126,14 +126,6 @@ Working on digital communication and social media initiatives for the RNSIT alum
 
 Outside of the terminal, I balance my screen time with:  
 `Running`  •  `Trekking`  •  `Cricket`  •  `Photography`
-
----
-
-<div align="center">
-  <a href="https://github.com/bhuvan-sk">
-    <img src="https://github-readme-stats.vercel.app/api?username=bhuvan-sk&show_icons=true&hide_border=true&theme=transparent&title_color=3382ed&icon_color=3382ed&text_color=474a4e" height="150" alt="GitHub Stats" />
-  </a>
-</div>
 
 <br>
 
