@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120" width="100%" height="120">
+  <defs>
+    <!-- Soft metallic light sweep gradient -->
+    <linearGradient id="sweep" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.0"/>
+      <stop offset="30%" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="1.0"/>
+      <stop offset="70%" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.0"/>
+    </linearGradient>
+
+    <!-- Exact copy of the typography to mask the light sweep -->
+    <mask id="textMask">
+      <g transform="translate(300, 65) scale(0.85, 1.4)">
+        <text x="7" y="0" font-family="'Times New Roman', Times, Georgia, serif" font-size="44" font-weight="700" letter-spacing="14" text-anchor="middle" dominant-baseline="middle" fill="white">BHUVAN SK</text>
+      </g>
+    </mask>
+  </defs>
+
+  <style>
+    .wordmark {
+      font-family: 'Times New Roman', Times, Georgia, serif;
+      font-size: 44px;
+      font-weight: 700;
+      letter-spacing: 14px;
+      text-anchor: middle;
+      dominant-baseline: middle;
+      fill: #cbd5e1; /* Subtle silver base */
+    }
+  </style>
+
+  <!-- Base Wordmark: Vertically elongated for subtle gothic proportion -->
+  <g transform="translate(300, 65) scale(0.85, 1.4)">
+    <text x="7" y="0" class="wordmark">BHUVAN SK</text>
+  </g>
+  
+  <!-- Metallic Light Sweep Layer (Masked exactly to the letters) -->
+  <!-- The skew gives the light a sharp, angled, blade-like passing effect -->
+  <rect x="-400" y="0" width="120" height="120" fill="url(#sweep)" mask="url(#textMask)" transform="skewX(-30)">
+    <!-- 8 second slow ambient sweep for a metallic chrome shine -->
+    <animate attributeName="x" from="-400" to="800" dur="8s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- ONE tiny elegant gothic diamond with subtle pulse -->
+  <!-- Muted violet accent to complement the dark theme -->
+  <polygon points="300,14 302,19 300,27 298,19" fill="#7c3aed" opacity="0.6">
+    <!-- Slow breathing pulse tied to the gothic aesthetic -->
+    <animate attributeName="opacity" values="0.3;0.9;0.3" dur="4s" repeatCount="indefinite" />
+  </polygon>
+</svg>
