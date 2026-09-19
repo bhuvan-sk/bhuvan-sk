@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120" width="100%" height="120">
+  <style>
+    .gothic-type {
+      font-family: 'Playfair Display', 'Didot', 'Bodoni MT', 'Times New Roman', serif;
+      font-size: 46px;
+      letter-spacing: 12px;
+      dominant-baseline: middle;
+      fill: #e2e8f0;
+    }
+  </style>
+  
+  <!-- 'BHUVAN' perfectly left-aligned from center minus gap -->
+  <text x="285" y="60" class="gothic-type" text-anchor="end">BHUVAN</text>
+  
+  <!-- 'SK' perfectly right-aligned from center plus gap -->
+  <text x="315" y="60" class="gothic-type" text-anchor="start">SK</text>
+  
+  <!-- ONE microscopic typographic detail -->
+  <!-- A razor-sharp, elegant gothic dagger seamlessly integrated into the negative space -->
+  <path d="M 300,48 L 301.5,56 L 300,70 L 298.5,56 Z" fill="#94a3b8" />
+</svg>
