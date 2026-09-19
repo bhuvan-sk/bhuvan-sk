@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120" width="100%" height="120">
+  <style>
+    .wordmark {
+      font-family: 'Times New Roman', Times, Georgia, serif;
+      font-size: 44px;
+      font-weight: 700;
+      letter-spacing: 14px;
+      text-anchor: middle;
+      dominant-baseline: middle;
+      fill: #e2e8f0;
+    }
+  </style>
+
+  <!-- Vertically elongated for subtle gothic proportion -->
+  <g transform="translate(300, 65) scale(0.85, 1.4)">
+    <text x="7" y="0" class="wordmark">BHUVAN SK</text>
+  </g>
+  
+  <!-- ONE tiny elegant gothic diamond -->
+  <polygon points="300,14 302,19 300,27 298,19" fill="#64748b" opacity="0.8" />
+</svg>
